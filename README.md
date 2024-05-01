@@ -71,5 +71,10 @@ Our ultimate model effectively and accurately predcited the severity of the acci
 1. Logistic Regression achieved the highest validation and test accuracies, with validation accuracy of 0.9857 and test accuracy of 0.9871, respectively. This indicates that the Logistic Regression model generalized well to unseen data and performed consistently well across both validation and test datasets.
 2. K-Nearest Neighbors (KNN) attained slightly lower validation and test accuracies compared to Logistic Regression. The validation accuracy was 0.9422, and the test accuracy was 0.9361. While KNN performed reasonably well, it showed a slightly lower accuracy compared to Logistic Regression, suggesting that it may not generalize as effectively to unseen data.
 3. KNN with GridSearchCV exhibited improved performance compared to the standard KNN model. With a validation accuracy of 0.9603 and a test accuracy of 0.9556, the GridSearchCV optimized KNN model demonstrated enhanced generalization and achieved higher accuracies than the standard KNN model..
-## Recommendation 
+## Recommendations
+
+
 ## Necessary Links 
+* The dataset: [https://catalogue.data.govt.nz/dataset/crash-analysis-system-cas-data5](https://catalogue.data.govt.nz/dataset/crash-analysis-system-cas-data5)
+* Dataset description: [https://opendata-nzta.opendata.arcgis.com/pages/cas-data-field-descriptions](https://opendata-nzta.opendata.arcgis.com/pages/cas-data-field-descriptions)
+
