@@ -6,7 +6,7 @@
 
 ## Authors
 
-- Esther Wiyaki 
+- Esther Gakio
 - Baraka Waswa 
 - Anita Bosibori 
 - Andrew Maina
