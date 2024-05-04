@@ -2,18 +2,6 @@
 
 <img src="car.jpg" alt="Car Image" width="800" height="400" />
 
-
-
-## Authors
-
-- Esther Gakio
-- Baraka Waswa 
-- Anita Bosibori 
-- Andrew Maina
-- Chris Mukiri 
-
-
-
 ## INTRODUCTION
 
 Road accidents stand as a formidable global challenge, inflicting injuries and fatalities that reverberate through families and communities. In Kenya, these incidents persist as a significant public health issue, claiming thousands of lives annually. While our dataset transcends national borders, the grim reality remains: road traffic injuries rank among the top 10 leading causes of death worldwide, as per the World Health Organization (WHO). This underscores the critical need for effective prevention strategies.
@@ -31,6 +19,24 @@ Key stakeholders who will benefit from this project include:
 4. General Public
 
 5. Consumers.
+
+## Authors
+
+- Esther Gakio
+- Baraka Waswa 
+- Anita Bosibori 
+- Andrew Maina
+- Chris Mukiri
+  
+## Project Overview 
+The project aims to develop a model capable of accurately determining the severity of road accidents by unveiling hidden patterns and risk factors that extend beyond conventional understanding and delving into the complexities of accident data  
+
+## Objectives 
+1. **Identify Key Predictive Factors:** Analyze various factors including roadway conditions, environmental influences, and driver behavior to identify the most significant predictors of crash occurrences. This analysis will serve as the foundation for developing the predictive model.
+2. **Build a Predictive Model for Crash Severity:** Construct and train a predictive model to accurately forecast the severity of road accidents, categorizing outcomes as non-injury, minor, serious, or fatal. This model will leverage identified key factors and apply machine learning techniques to predict outcomes based on real-time and historical data.
+3. **Develop an Early Warning System:** Create a system that uses the predictive model to identify high-risk areas and times for potential accidents. This system will enable stakeholders, such as traffic management centers and law enforcement agencies, to implement proactive measures including enhanced surveillance and targeted road safety campaigns.
+4. **Optimize Resource Allocation with Predictive Analytics:** Utilize the predictive model to improve the allocation of emergency response and medical resources. By forecasting the likelihood and severity of accidents in specific areas, this objective aims to ensure that resources are more strategically deployed, enhancing response times and operational efficiency.
+
 ## Data Exploration And Preprocessing 
 The project kicks off with loading the dataset into a DataFrame and conducting a thorough examination of its structure and contents. This involves identifying available columns and potential groupings, followed by checks for missing values and inconsistencies.
 
@@ -44,19 +50,13 @@ These comprehensive steps in data exploration and preprocessing are crucial for 
 
 
 
-
-
-
-## Project Overview 
-The project aims to develop a model capable of accurately determining the severity of road accidents by unveiling hidden patterns and risk factors that extend beyond conventional understanding and delving into the complexities of accident data  
-
-## Objectives 
-1. **Identify Key Predictive Factors:** Analyze various factors including roadway conditions, environmental influences, and driver behavior to identify the most significant predictors of crash occurrences. This analysis will serve as the foundation for developing the predictive model.
-2. **Build a Predictive Model for Crash Severity:** Construct and train a predictive model to accurately forecast the severity of road accidents, categorizing outcomes as non-injury, minor, serious, or fatal. This model will leverage identified key factors and apply machine learning techniques to predict outcomes based on real-time and historical data.
-3. **Develop an Early Warning System:** Create a system that uses the predictive model to identify high-risk areas and times for potential accidents. This system will enable stakeholders, such as traffic management centers and law enforcement agencies, to implement proactive measures including enhanced surveillance and targeted road safety campaigns.
-4. **Optimize Resource Allocation with Predictive Analytics:** Utilize the predictive model to improve the allocation of emergency response and medical resources. By forecasting the likelihood and severity of accidents in specific areas, this objective aims to ensure that resources are more strategically deployed, enhancing response times and operational efficiency.
 ## Modelling 
 In our project, we employed linear Regression as the baseline model and an iteration thereafter with Decision Tree, KNN, Random Forest and XGboost. Our system was designed to discern the severity of the road accidents. Through our findings, we aim to provide insights into the factors affecting the severity of the road accidents and the predictive factors.
+
+
+
+
+
 
 After modeling, here are the top features contributing to the models' performance.
 
